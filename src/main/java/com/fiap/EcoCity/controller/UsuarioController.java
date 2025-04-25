@@ -19,7 +19,7 @@ import com.fiap.EcoCity.model.Usuario;
 import com.fiap.EcoCity.service.UsuarioService;
 
 @RestController
-@RequestMapping("/api/usuarios")
+@RequestMapping("/usuarios")
 public class UsuarioController {
 	
 	@Autowired
