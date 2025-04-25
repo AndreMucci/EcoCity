@@ -1,0 +1,13 @@
+com\fiap\EcoCity\controller\ColetaController.class
+com\fiap\EcoCity\repository\ColetaRepository.class
+com\fiap\EcoCity\EcoCityApplication.class
+com\fiap\EcoCity\repository\UsuarioRepository.class
+com\fiap\EcoCity\service\PontoColetaService.class
+com\fiap\EcoCity\service\UsuarioService.class
+com\fiap\EcoCity\repository\PontoColetaRepository.class
+com\fiap\EcoCity\model\PontoColeta.class
+com\fiap\EcoCity\controller\PontoColetaController.class
+com\fiap\EcoCity\model\Usuario.class
+com\fiap\EcoCity\model\Coleta.class
+com\fiap\EcoCity\service\ColetaService.class
+com\fiap\EcoCity\controller\UsuarioController.class

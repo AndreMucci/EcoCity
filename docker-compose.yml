@@ -1,0 +1,28 @@
+services:
+  app:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: .
+    container_name: ecocity
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=ecocity-dev
+      - POSTGRES_PASSWORD=ecocity2025
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://fiap-postgres-db:5432/ecocity
+      - SPRING_DATASOURCE_USERNAME=ecocity-dev
+      - SPRING_DATASOURCE_PASSWORD=ecocity2025
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+    ports:
+      - "8080:8080"
+
+  db:
+    image: postgres
+    container_name: fiap-postgres-db
+    environment:
+      - POSTGRES_USER=ecocity-dev
+      - POSTGRES_PASSWORD=ecocity2025
+      - POSTGRES_DB=ecocity
+    ports:
+      - "5432:5432"
