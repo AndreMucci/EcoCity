@@ -53,4 +53,4 @@ jobs:
           app-name: 'ecocity-nonprod'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BA8808A6CCEF442FB0AB73824D5AE9EA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6F3A9C8DB0D548B2821F4CE41497BBC3 }}
