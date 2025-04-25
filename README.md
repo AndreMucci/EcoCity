@@ -35,3 +35,5 @@ mvn -N io.takari:maven:wrapper
 # 3. Inicie os containers com Docker:
 docker-compose up --build
 ```
+
+E já pode testar as rotas em http://localhost:8080/
