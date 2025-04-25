@@ -3,7 +3,7 @@ name: CI/CD Pipeline - Staging & Production
 on:
   push:
     branches:
-      - main
+      - master
       - staging
 
 jobs:
